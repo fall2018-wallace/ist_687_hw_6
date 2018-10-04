@@ -18,4 +18,4 @@ readStates <- function(states)
 }
 
 cleanCensus <- readStates(raw_data)
-str(CleanCensus)
+str(cleanCensus)
