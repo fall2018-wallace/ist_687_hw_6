@@ -8,5 +8,7 @@ readStates <- function(states)
     #--last row is Puerto Rico, its not a state
     num.row <- nrow(states)
     states <- [-num.row,]
+    
+    #change names for remaining columns
 }
 
