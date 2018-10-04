@@ -10,5 +10,8 @@ readStates <- function(states)
     states <- [-num.row,]
     
     #change names for remaining columns
+    colnames(dfStates) <- c("stateName","population","popOver18","percentOver18")
+    
+    #return the results
 }
 
