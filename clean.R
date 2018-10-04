@@ -13,5 +13,6 @@ readStates <- function(states)
     colnames(dfStates) <- c("stateName","population","popOver18","percentOver18")
     
     #return the results
+    return(states)
 }
 
