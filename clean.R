@@ -6,5 +6,6 @@ readStates <- function(states)
     #--first row is the total for the US, we do not need that
     states <- states[-1,]
     #--last row is Puerto Rico, its not a state
+    num.row <- nrow(states)
 }
 
