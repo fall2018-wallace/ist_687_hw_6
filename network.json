@@ -23,8 +23,12 @@
             "assigned_to": "loclark",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "mergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:09:58",
+    "updated_at": "2018-10-04 17:10:31",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
