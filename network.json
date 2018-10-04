@@ -17,7 +17,7 @@
         {
             "ports": [
                 {
-                    "input": "df",
+                    "input": "clean_data",
                     "output": "clean_data",
                     "type": "r_obj"
                 }
@@ -40,6 +40,6 @@
             "name": "mergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:11:11",
+    "updated_at": "2018-10-04 17:32:26",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
