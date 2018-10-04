@@ -7,7 +7,7 @@ readStates <- function(states)
     states <- states[-1,]
     #--last row is Puerto Rico, its not a state
     num.row <- nrow(states)
-    states <- [-num.row,]
+    states <- states[-num.row,]
     states <- states[,-1:-4]
     #change names for remaining columns
     colnames(dfStates) <- c("stateName","population","popOver18","percentOver18")
