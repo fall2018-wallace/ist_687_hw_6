@@ -1,2 +1,2 @@
 
-cleanCensus <- cleanCensus
+str(census)
