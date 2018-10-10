@@ -62,8 +62,11 @@
             "desc": "Population and Murder rate histogram",
             "name": "Histogram.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "PopHist.png"
         }
     ],
-    "updated_at": "2018-10-10 00:31:23",
+    "updated_at": "2018-10-10 00:31:56",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
