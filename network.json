@@ -1,0 +1,246 @@
+{
+    "collaborators": [
+        "loclark"
+    ],
+    "created_at": "2018-10-04 16:41:00",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "dfStates",
+                    "output": "dfStates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "dfStates.R",
+            "target": "MStates.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "arrests.R",
+            "target": "MStates.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "Histogram.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "PopHist",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "PopHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MurderHist",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "MurderHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "PopBoxPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "PopBoxPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MurderBoxPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "MurderBoxPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "MurdersPerState.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "MurderState",
+                    "output": "MurderState",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MurdersPerState.R",
+            "target": "Barchart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Barchart1",
+                    "type": "png"
+                }
+            ],
+            "source": "Barchart.R",
+            "target": "BarchartEdit1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Barchart2",
+                    "type": "png"
+                }
+            ],
+            "source": "Barchart.R",
+            "target": "BarchartEdit2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Barchart3",
+                    "type": "png"
+                }
+            ],
+            "source": "Barchart.R",
+            "target": "BarchartEdit3.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "ScatterPlot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "ScatterPlot.R",
+            "target": "Scatter.png"
+        }
+    ],
+    "nodes": [
+        {
+            "assigned_to": "loclark",
+            "desc": "dfStates data set",
+            "name": "dfStates.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "USArrests dataset",
+            "name": "arrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "",
+            "name": "MStates.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "Population and Murder rate histogram",
+            "name": "Histogram.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "PopHist.png"
+        },
+        {
+            "name": "MurderHist.png"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "create boxplot for population and murder rate",
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "PopBoxPlot.png"
+        },
+        {
+            "name": "MurderBoxPlot.png"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "Calculating the murders per state",
+            "name": "MurdersPerState.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "the three questions in the assignment to generate a bar chart",
+            "name": "Barchart.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "BarchartEdit1.png"
+        },
+        {
+            "name": "BarchartEdit2.png"
+        },
+        {
+            "name": "BarchartEdit3.png"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "",
+            "name": "ScatterPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Scatter.png"
+        }
+    ],
+    "updated_at": "2018-10-10 00:52:48",
+    "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
+}
