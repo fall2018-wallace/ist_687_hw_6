@@ -114,6 +114,16 @@
             ],
             "source": "MurdersPerState.R",
             "target": "Barchart.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Barchart1",
+                    "type": "png"
+                }
+            ],
+            "source": "Barchart.R",
+            "target": "BarchartEdit1.png"
         }
     ],
     "nodes": [
@@ -175,6 +185,6 @@
             "name": "BarchartEdit1.png"
         }
     ],
-    "updated_at": "2018-10-10 00:47:47",
+    "updated_at": "2018-10-10 00:48:01",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
