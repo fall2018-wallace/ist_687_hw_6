@@ -44,12 +44,6 @@
         },
         {
             "assigned_to": "loclark",
-            "desc": "",
-            "name": "mergeArrests.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "loclark",
             "desc": "dfStates data set",
             "name": "dfStates.R",
             "task_status": "in progress"
@@ -73,6 +67,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 00:31:04",
+    "updated_at": "2018-10-10 00:31:12",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
