@@ -87,6 +87,17 @@
             ],
             "source": "boxplot.R",
             "target": "MurderBoxPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "MurdersPerState.R"
         }
     ],
     "nodes": [
@@ -137,6 +148,6 @@
             "name": "MurdersPerState.R"
         }
     ],
-    "updated_at": "2018-10-10 00:38:52",
+    "updated_at": "2018-10-10 00:39:50",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
