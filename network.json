@@ -34,7 +34,7 @@
                 }
             ],
             "source": "dfStates.R",
-            "target": "Merge.R"
+            "target": "MStates.R"
         },
         {
             "ports": [
@@ -45,7 +45,7 @@
                 }
             ],
             "source": "arrests.R",
-            "target": "Merge.R"
+            "target": "MStates.R"
         }
     ],
     "nodes": [
@@ -78,10 +78,10 @@
         {
             "assigned_to": "loclark",
             "desc": "",
-            "name": "Merge.R",
+            "name": "MStates.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 00:17:01",
+    "updated_at": "2018-10-10 00:26:38",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
