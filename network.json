@@ -239,14 +239,8 @@
         },
         {
             "name": "Scatter.png"
-        },
-        {
-            "assigned_to": "loclark",
-            "desc": "",
-            "name": "read_dfStates.R",
-            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 02:17:09",
+    "updated_at": "2018-10-10 02:17:15",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
