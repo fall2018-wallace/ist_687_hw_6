@@ -242,8 +242,12 @@
         },
         {
             "name": "dfStates.csv"
+        },
+        {
+            "desc": "",
+            "name": "read_dfStates.R"
         }
     ],
-    "updated_at": "2018-10-10 02:15:33",
+    "updated_at": "2018-10-10 02:15:55",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
