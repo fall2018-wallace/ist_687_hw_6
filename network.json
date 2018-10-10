@@ -155,6 +155,16 @@
             ],
             "source": "MStates.R",
             "target": "ScatterPlot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "ScatterPlot.R",
+            "target": "Scatter.png"
         }
     ],
     "nodes": [
@@ -231,6 +241,6 @@
             "name": "Scatter.png"
         }
     ],
-    "updated_at": "2018-10-10 00:51:51",
+    "updated_at": "2018-10-10 00:52:48",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
