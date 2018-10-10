@@ -4,3 +4,4 @@ dfStates <- read.csv(url("https://www2.census.gov/programs-surveys/popest/datase
 dfStates <- dfStates[,-1:-4]
 dfStates <- dfStates[-c(1,53,10),]
 colnames(dfStates) <- c("stateName","population","popOver18","percentOver18")
+str(dfStates)
