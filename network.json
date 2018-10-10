@@ -80,8 +80,11 @@
             "desc": "",
             "name": "MStates.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "PopHist.png"
         }
     ],
-    "updated_at": "2018-10-10 00:26:38",
+    "updated_at": "2018-10-10 00:27:29",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
