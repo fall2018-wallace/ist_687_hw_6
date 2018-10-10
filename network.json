@@ -105,6 +105,11 @@
                     "input": "MurderState",
                     "output": "MurderState",
                     "type": "r_obj"
+                },
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
                 }
             ],
             "source": "MurdersPerState.R",
@@ -167,6 +172,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 00:45:31",
+    "updated_at": "2018-10-10 00:46:01",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
