@@ -42,10 +42,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "loclark",
             "desc": "dfStates data set",
-            "name": "dfStates.R"
+            "name": "dfStates.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "USArrests dataset",
+            "name": "arrests.R"
         }
     ],
-    "updated_at": "2018-10-10 00:12:25",
+    "updated_at": "2018-10-10 00:13:57",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
