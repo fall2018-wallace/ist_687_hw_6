@@ -98,6 +98,17 @@
             ],
             "source": "MStates.R",
             "target": "MurdersPerState.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "MurderState",
+                    "output": "MurderState",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MurdersPerState.R",
+            "target": "Barchart.R"
         }
     ],
     "nodes": [
@@ -154,6 +165,6 @@
             "name": "Barchart.R"
         }
     ],
-    "updated_at": "2018-10-10 00:41:29",
+    "updated_at": "2018-10-10 00:42:09",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
