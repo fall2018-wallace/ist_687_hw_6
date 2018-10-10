@@ -209,8 +209,12 @@
         },
         {
             "name": "BarchartEdit3.png"
+        },
+        {
+            "desc": "",
+            "name": "ScatterPlot.R"
         }
     ],
-    "updated_at": "2018-10-10 00:48:52",
+    "updated_at": "2018-10-10 00:49:42",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
