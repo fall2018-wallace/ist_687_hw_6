@@ -46,6 +46,16 @@
             ],
             "source": "Histogram.R",
             "target": "PopHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MurderHist",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "MurderHist.png"
         }
     ],
     "nodes": [
@@ -80,6 +90,6 @@
             "name": "MurderHist.png"
         }
     ],
-    "updated_at": "2018-10-10 00:32:41",
+    "updated_at": "2018-10-10 00:33:00",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
