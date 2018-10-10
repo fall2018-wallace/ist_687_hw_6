@@ -124,6 +124,16 @@
             ],
             "source": "Barchart.R",
             "target": "BarchartEdit1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Barchart2",
+                    "type": "png"
+                }
+            ],
+            "source": "Barchart.R",
+            "target": "BarchartEdit2.png"
         }
     ],
     "nodes": [
@@ -188,6 +198,6 @@
             "name": "BarchartEdit2.png"
         }
     ],
-    "updated_at": "2018-10-10 00:48:16",
+    "updated_at": "2018-10-10 00:48:30",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
