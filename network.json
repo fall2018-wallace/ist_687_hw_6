@@ -144,6 +144,17 @@
             ],
             "source": "Barchart.R",
             "target": "BarchartEdit3.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "ScatterPlot.R"
         }
     ],
     "nodes": [
@@ -215,6 +226,6 @@
             "name": "ScatterPlot.R"
         }
     ],
-    "updated_at": "2018-10-10 00:49:42",
+    "updated_at": "2018-10-10 00:49:58",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
