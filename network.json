@@ -36,6 +36,16 @@
             ],
             "source": "MStates.R",
             "target": "Histogram.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "PopHist",
+                    "type": "png"
+                }
+            ],
+            "source": "Histogram.R",
+            "target": "PopHist.png"
         }
     ],
     "nodes": [
@@ -67,6 +77,6 @@
             "name": "PopHist.png"
         }
     ],
-    "updated_at": "2018-10-10 00:31:56",
+    "updated_at": "2018-10-10 00:32:15",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
