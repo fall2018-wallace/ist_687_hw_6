@@ -131,8 +131,12 @@
         },
         {
             "name": "MurderBoxPlot.png"
+        },
+        {
+            "desc": "Calculating the murders per state",
+            "name": "MurdersPerState.R"
         }
     ],
-    "updated_at": "2018-10-10 00:37:46",
+    "updated_at": "2018-10-10 00:38:52",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
