@@ -40,8 +40,12 @@
             "desc": "",
             "name": "mergeArrests.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "dfStates data set",
+            "name": "dfStates.R"
         }
     ],
-    "updated_at": "2018-10-10 00:02:16",
+    "updated_at": "2018-10-10 00:12:25",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
