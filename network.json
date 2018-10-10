@@ -101,10 +101,15 @@
             "name": "MurderHist.png"
         },
         {
+            "assigned_to": "loclark",
             "desc": "create boxplot for population and murder rate",
-            "name": "boxplot.R"
+            "name": "boxplot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "PopBoxPlot.png"
         }
     ],
-    "updated_at": "2018-10-10 00:34:54",
+    "updated_at": "2018-10-10 00:36:50",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
