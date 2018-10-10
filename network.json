@@ -75,8 +75,11 @@
         },
         {
             "name": "PopHist.png"
+        },
+        {
+            "name": "MurderHist.png"
         }
     ],
-    "updated_at": "2018-10-10 00:32:15",
+    "updated_at": "2018-10-10 00:32:41",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
