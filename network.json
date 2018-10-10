@@ -48,10 +48,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "loclark",
             "desc": "USArrests dataset",
-            "name": "arrests.R"
+            "name": "arrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Merge.R"
         }
     ],
-    "updated_at": "2018-10-10 00:13:57",
+    "updated_at": "2018-10-10 00:15:25",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
