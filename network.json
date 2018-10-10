@@ -170,8 +170,11 @@
             "desc": "the three questions in the assignment to generate a bar chart",
             "name": "Barchart.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "BarchartEdit1.png"
         }
     ],
-    "updated_at": "2018-10-10 00:46:01",
+    "updated_at": "2018-10-10 00:47:47",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
