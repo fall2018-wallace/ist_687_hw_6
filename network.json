@@ -161,10 +161,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "loclark",
             "desc": "the three questions in the assignment to generate a bar chart",
-            "name": "Barchart.R"
+            "name": "Barchart.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 00:42:09",
+    "updated_at": "2018-10-10 00:45:31",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
