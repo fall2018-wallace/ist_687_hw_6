@@ -77,6 +77,16 @@
             ],
             "source": "boxplot.R",
             "target": "PopBoxPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MurderBoxPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "MurderBoxPlot.png"
         }
     ],
     "nodes": [
@@ -123,6 +133,6 @@
             "name": "MurderBoxPlot.png"
         }
     ],
-    "updated_at": "2018-10-10 00:37:21",
+    "updated_at": "2018-10-10 00:37:46",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
