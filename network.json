@@ -222,10 +222,15 @@
             "name": "BarchartEdit3.png"
         },
         {
+            "assigned_to": "loclark",
             "desc": "",
-            "name": "ScatterPlot.R"
+            "name": "ScatterPlot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "Scatter.png"
         }
     ],
-    "updated_at": "2018-10-10 00:49:58",
+    "updated_at": "2018-10-10 00:51:51",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
