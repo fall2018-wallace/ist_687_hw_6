@@ -80,8 +80,12 @@
             "desc": "",
             "name": "MStates.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Population and Murder rate histogram",
+            "name": "Histogram.R"
         }
     ],
-    "updated_at": "2018-10-10 00:27:58",
+    "updated_at": "2018-10-10 00:28:34",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
