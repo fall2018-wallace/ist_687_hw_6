@@ -46,6 +46,17 @@
             ],
             "source": "arrests.R",
             "target": "MStates.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "Histogram.R"
         }
     ],
     "nodes": [
@@ -82,10 +93,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "loclark",
             "desc": "Population and Murder rate histogram",
-            "name": "Histogram.R"
+            "name": "Histogram.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-10 00:28:34",
+    "updated_at": "2018-10-10 00:29:50",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
