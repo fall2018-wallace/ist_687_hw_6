@@ -40,8 +40,11 @@
             "desc": "",
             "name": "mergeArrests.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "plot7550.png"
         }
     ],
-    "updated_at": "2018-10-04 17:35:28",
+    "updated_at": "2018-10-10 00:02:03",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
