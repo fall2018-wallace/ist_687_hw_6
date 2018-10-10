@@ -67,6 +67,16 @@
             ],
             "source": "MStates.R",
             "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "PopBoxPlot",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "PopBoxPlot.png"
         }
     ],
     "nodes": [
@@ -110,6 +120,6 @@
             "name": "PopBoxPlot.png"
         }
     ],
-    "updated_at": "2018-10-10 00:36:50",
+    "updated_at": "2018-10-10 00:37:07",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
