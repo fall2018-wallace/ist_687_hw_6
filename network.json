@@ -239,8 +239,11 @@
         },
         {
             "name": "Scatter.png"
+        },
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-10 02:29:58",
+    "updated_at": "2018-10-11 02:44:59",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
