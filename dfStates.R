@@ -4,5 +4,6 @@ dfStates <- read.csv("scprc_est_2017_18_pop_res.csv")
 dfStates <- dfStates[,-1:-4]
 dfStates
 dfStates <- dfStates[-c(1,53,10),]
+dfStates
 colnames(dfStates) <- c("stateName","population","popOver18","percentOver18")
 
