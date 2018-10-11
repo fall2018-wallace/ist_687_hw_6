@@ -6,4 +6,4 @@ dfStates
 dfStates <- dfStates[-c(1,53,10),]
 dfStates
 colnames(dfStates) <- c("stateName","population","popOver18","percentOver18")
-
+dfStates
