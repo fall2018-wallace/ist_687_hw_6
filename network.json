@@ -170,6 +170,17 @@
             "ports": [],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "dfStates.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "USAreaMap.R"
         }
     ],
     "nodes": [
@@ -253,6 +264,6 @@
             "name": "USAreaMap.R"
         }
     ],
-    "updated_at": "2018-10-18 01:25:48",
+    "updated_at": "2018-10-18 01:26:26",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
