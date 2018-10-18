@@ -317,8 +317,12 @@
         },
         {
             "name": "USMapMur.png"
+        },
+        {
+            "desc": "Map showing population per state colored by murder rate, circle is located in the middle of each state",
+            "name": "USPop.R"
         }
     ],
-    "updated_at": "2018-10-18 01:45:30",
+    "updated_at": "2018-10-18 01:47:06",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
