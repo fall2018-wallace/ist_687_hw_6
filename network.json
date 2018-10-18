@@ -170,6 +170,104 @@
             "ports": [],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "dfStates.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "USmap",
+                    "type": "png"
+                }
+            ],
+            "source": "USAreaMap.R",
+            "target": "USmap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "USMapMur",
+                    "type": "png"
+                }
+            ],
+            "source": "USMapMur.R",
+            "target": "USMapMur.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "us",
+                    "output": "us",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "USAreaMap.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "us",
+                    "output": "us",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "USMapMur.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "us",
+                    "output": "us",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "USPop.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "USPop",
+                    "type": "png"
+                }
+            ],
+            "source": "USPop.R",
+            "target": "USPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "USPopZoom",
+                    "type": "png"
+                }
+            ],
+            "source": "USPop.R",
+            "target": "USPopZoom.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "USMurZoom",
+                    "type": "png"
+                }
+            ],
+            "source": "USMapMur.R",
+            "target": "USMurZoom.png"
         }
     ],
     "nodes": [
@@ -247,8 +345,41 @@
         },
         {
             "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "Make color coded based on the area of each state",
+            "name": "USAreaMap.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "USmap.png"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "US states map color shaded with murder rate per state",
+            "name": "USMapMur.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "USMapMur.png"
+        },
+        {
+            "assigned_to": "loclark",
+            "desc": "Map showing population per state colored by murder rate, circle is located in the middle of each state",
+            "name": "USPop.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "USPop.png"
+        },
+        {
+            "name": "USMurZoom.png"
+        },
+        {
+            "name": "USPopZoom.png"
         }
     ],
-    "updated_at": "2018-10-11 02:45:19",
+    "updated_at": "2018-10-18 02:00:06",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
