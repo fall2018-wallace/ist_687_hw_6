@@ -222,6 +222,22 @@
             ],
             "source": "MStates.R",
             "target": "USMapMur.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "us",
+                    "output": "us",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "USPop.R"
         }
     ],
     "nodes": [
@@ -323,6 +339,6 @@
             "name": "USPop.R"
         }
     ],
-    "updated_at": "2018-10-18 01:47:06",
+    "updated_at": "2018-10-18 01:48:04",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
