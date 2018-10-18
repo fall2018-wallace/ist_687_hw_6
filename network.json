@@ -248,6 +248,22 @@
             ],
             "source": "USPop.R",
             "target": "USPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "us",
+                    "output": "us",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "MapZoom.R"
         }
     ],
     "nodes": [
@@ -358,6 +374,6 @@
             "name": "MapZoom.R"
         }
     ],
-    "updated_at": "2018-10-18 01:50:26",
+    "updated_at": "2018-10-18 01:51:11",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
