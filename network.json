@@ -181,6 +181,16 @@
             ],
             "source": "MStates.R",
             "target": "USAreaMap.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "USmap",
+                    "type": "png"
+                }
+            ],
+            "source": "USAreaMap.R",
+            "target": "USmap.png"
         }
     ],
     "nodes": [
@@ -269,6 +279,6 @@
             "name": "USmap.png"
         }
     ],
-    "updated_at": "2018-10-18 01:29:29",
+    "updated_at": "2018-10-18 01:29:41",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
