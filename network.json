@@ -260,10 +260,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
+            "assigned_to": "loclark",
             "desc": "Make color coded based on the area of each state",
-            "name": "USAreaMap.R"
+            "name": "USAreaMap.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "USmap.png"
         }
     ],
-    "updated_at": "2018-10-18 01:26:26",
+    "updated_at": "2018-10-18 01:29:29",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
