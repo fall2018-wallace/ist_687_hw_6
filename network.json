@@ -174,17 +174,6 @@
         {
             "ports": [
                 {
-                    "input": "Mstates",
-                    "output": "Mstates",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "MStates.R",
-            "target": "USAreaMap.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "USmap",
                     "type": "png"
                 }
@@ -212,6 +201,22 @@
             ],
             "source": "USMapMur.R",
             "target": "USMapMur.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "Mstates",
+                    "output": "Mstates",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "us",
+                    "output": "us",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MStates.R",
+            "target": "USAreaMap.R"
         }
     ],
     "nodes": [
@@ -309,6 +314,6 @@
             "name": "USMapMur.png"
         }
     ],
-    "updated_at": "2018-10-18 01:40:48",
+    "updated_at": "2018-10-18 01:45:17",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
