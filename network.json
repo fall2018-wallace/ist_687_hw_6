@@ -247,8 +247,12 @@
         },
         {
             "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "desc": "Make color coded based on the area of each state",
+            "name": "USAreaMap.R"
         }
     ],
-    "updated_at": "2018-10-11 02:45:19",
+    "updated_at": "2018-10-18 01:25:48",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
