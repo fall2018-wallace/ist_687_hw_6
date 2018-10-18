@@ -352,8 +352,12 @@
         },
         {
             "name": "USPop.png"
+        },
+        {
+            "desc": "The maps murder maps zoomed in on NYC coordinates +/- 10",
+            "name": "MapZoom.R"
         }
     ],
-    "updated_at": "2018-10-18 01:49:09",
+    "updated_at": "2018-10-18 01:50:26",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
