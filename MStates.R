@@ -14,3 +14,6 @@ Mstates$Area <- state.area
 state.center1<-data.frame(state.center)
 Mstates$Latitude <- state.center1$y
 Mstates$Longitude <- state.center1$x
+
+Mstates$stateName <- tolower(Mstates$stateName)
+us <- map_data("state")
