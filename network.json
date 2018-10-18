@@ -377,8 +377,11 @@
         },
         {
             "name": "USMurZoom.png"
+        },
+        {
+            "name": "USPopZoom.png"
         }
     ],
-    "updated_at": "2018-10-18 01:52:10",
+    "updated_at": "2018-10-18 01:52:25",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
