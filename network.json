@@ -277,8 +277,12 @@
         },
         {
             "name": "USmap.png"
+        },
+        {
+            "desc": "US states map color shaded with murder rate per state",
+            "name": "USMapMur.R"
         }
     ],
-    "updated_at": "2018-10-18 01:29:41",
+    "updated_at": "2018-10-18 01:31:21",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
