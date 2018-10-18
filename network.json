@@ -258,6 +258,16 @@
             ],
             "source": "USMapMur.R",
             "target": "USMurZoom.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "USPopZoom",
+                    "type": "png"
+                }
+            ],
+            "source": "USPop.R",
+            "target": "USPopZoom.png"
         }
     ],
     "nodes": [
@@ -370,6 +380,6 @@
             "name": "USPopZoom.png"
         }
     ],
-    "updated_at": "2018-10-18 01:58:35",
+    "updated_at": "2018-10-18 01:58:49",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
