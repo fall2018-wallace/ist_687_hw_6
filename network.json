@@ -238,6 +238,16 @@
             ],
             "source": "MStates.R",
             "target": "USPop.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "USPop",
+                    "type": "png"
+                }
+            ],
+            "source": "USPop.R",
+            "target": "USPop.png"
         }
     ],
     "nodes": [
@@ -344,6 +354,6 @@
             "name": "USPop.png"
         }
     ],
-    "updated_at": "2018-10-18 01:48:56",
+    "updated_at": "2018-10-18 01:49:09",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
