@@ -335,10 +335,15 @@
             "name": "USMapMur.png"
         },
         {
+            "assigned_to": "loclark",
             "desc": "Map showing population per state colored by murder rate, circle is located in the middle of each state",
-            "name": "USPop.R"
+            "name": "USPop.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "USPop.png"
         }
     ],
-    "updated_at": "2018-10-18 01:48:04",
+    "updated_at": "2018-10-18 01:48:56",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
