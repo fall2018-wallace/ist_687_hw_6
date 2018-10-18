@@ -290,10 +290,15 @@
             "name": "USmap.png"
         },
         {
+            "assigned_to": "loclark",
             "desc": "US states map color shaded with murder rate per state",
-            "name": "USMapMur.R"
+            "name": "USMapMur.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "USMapMur.png"
         }
     ],
-    "updated_at": "2018-10-18 01:39:13",
+    "updated_at": "2018-10-18 01:40:31",
     "url": "https://github.com/fall2018-wallace/ist_687_hw_6"
 }
